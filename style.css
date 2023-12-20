@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    color: black;
+    background-color: #DED0B6;
+}
+button{
+    height: 8vh;
+    width: 12vw;
+    border-radius: 50px 50px 50px 50px;
+    font-size: 20px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    border: none;
+}
+a{
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    width: 70%;
+    margin: auto;
+    /* border: 5px solid black; */
+    box-shadow: 3px 3px 5px 10px #b6bbc4a9;
+    /* column-gap: 80px; */
+}
+.left{
+    display: grid;
+    gap: 10vh;
+    justify-content: center;
+    background-color: #f4ece6;
+}
+.top-left img{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+.top-left h2{
+    text-align: center;
+}
+.top-left h3{
+    text-align: center;
+}
+.top-left hr{
+    border: 5px solid blue;
+}
+.bottom-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.right{
+    padding: 25px;
+    background-color: whitesmoke;
+}
+.right h1{
+    font-weight: bold;
+    font-size: 100px;
+}
+.right h2{
+    font-size: 25px;
+}
+.right p{
+    font-weight: 300;
+    font-size: 23px;
+    text-align: start;
+}
+.links{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#resume:hover{
+    background-color: #0050FF;
+    color: white;
+}
+#projects{
+    background-color: #6e8fd7;
+    border: 2px solid black;
+}
+#projects a{
+    color: white;
+}

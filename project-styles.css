@@ -1,0 +1,50 @@
+body{
+    background-color: white;
+    font-family: 'Poppins';
+    font-weight: 300;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 25px;
+    transition-duration: 1s;
+}
+a:hover{
+    color: rgb(229, 42, 201);
+}
+.project-files{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr auto;
+    gap: 30px;
+    box-shadow: 10px 10px 5px 12px #B6BBC4;
+}
+.project{
+    /* border: 6px solid black; */
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 2fr);
+    background-color: white;
+}
+.screenshot{
+    height: 400px;
+    width: 650px;
+}
+h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 10vh;
+}
+.left{
+    display: grid;
+    grid-template-rows: 1fr 2fr auto;
+    justify-items: center;
+}
+.left h3{
+    font-size: 30px;
+    text-align: center;
+}
+.left p{
+    font-size: 20px;
+    text-align: center;
+}
