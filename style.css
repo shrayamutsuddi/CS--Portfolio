@@ -6,13 +6,31 @@ body{
     background-color: #DED0B6;
 }
 button{
-    height: 8vh;
-    width: 12vw;
+    height: 7vh;
+    width: 10vw;
     border-radius: 50px 50px 50px 50px;
-    font-size: 20px;
+    font-size: 18px;
     cursor: pointer;
-    transition-duration: 0.5s;
+    transition-duration: 0.4s;
     border: none;
+    background-color: black;
+    color: white;
+}
+#resume:hover{
+    background-color: gray;
+    color: black;
+}
+#projects{
+    background-color: gray;
+    color: black;
+}
+#projects:hover{
+    background-color: black;
+    color: white;
+}
+#projects a{
+    color: white;
+    font-weight: 300;
 }
 a{
    text-decoration: none;
@@ -24,9 +42,7 @@ a{
     grid-template-columns: 2fr 2fr;
     width: 70%;
     margin: auto;
-    /* border: 5px solid black; */
     box-shadow: 3px 3px 5px 10px #b6bbc4a9;
-    /* column-gap: 80px; */
 }
 .left{
     display: grid;
@@ -37,6 +53,7 @@ a{
 .top-left img{
     height: 350px;
     width: 350px;
+    object-fit: cover;
     border-radius: 50%;
 }
 .top-left h2{
@@ -72,15 +89,4 @@ a{
 .links{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-}
-#resume:hover{
-    background-color: #0050FF;
-    color: white;
-}
-#projects{
-    background-color: #6e8fd7;
-    border: 2px solid black;
-}
-#projects a{
-    color: white;
 }
